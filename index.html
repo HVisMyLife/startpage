@@ -25,7 +25,7 @@
     <main>
         <div id="content">
             <div id="head">
-                <form action="https://duckduckgo.com/">
+                <form action="https://search.brave.com/search">
                     <label for="q" autofocus>> find / </label>
                     <input type="text" name="q" autocomplete="off">
                 </form>
@@ -36,42 +36,42 @@
             </div>
             <div id="links">
                 <section>
-                    <h3>section header</h3>
+                    <h3>Google</h3>
                         <ul>
-                            <li><a href="https://example.com">website text</a></li>
-                            <li><a href="https://example.com">website text</a></li>
-                            <li><a href="https://example.com">website text</a></li>
+                            <li><a href="https://mail.google.com/">Gmail</a></li>
+                            <li><a href="https://drive.google.com/">Drive</a></li>
+                            <li><a href="https://youtube.com">YouTube</a></li>
                         </ul>
                 </section>
                 <section>
-                    <h3>section header</h3>
+                    <h3>dev</h3>
                         <ul>
-                            <li><a href="https://example.com">website text</a></li>
-                            <li><a href="https://example.com">website text</a></li>
-                            <li><a href="https://example.com">website text</a></li>
+                            <li><a href="https://wiki.archlinux.org/">ArchWiki</a></li>
+                            <li><a href="https://tardigrade.pl/">Tardigrade</a></li>
+                            <li><a href="https://github.com">GitHub</a></li>
                         </ul>
                 </section>
                 <section>
-                    <h3>section header</h3>
+                    <h3>Reddit</h3>
                         <ul>
-                            <li><a href="https://example.com">website text</a></li>
-                            <li><a href="https://example.com">website text</a></li>
-                            <li><a href="https://example.com">website text</a></li>
+                            <li><a href="https://www.reddit.com/r/unixporn/">UnixPorn</a></li>
+                            <li><a href="https://www.reddit.com/r/ProgrammerHumor/">PH</a></li>
+                            <li><a href="https://www.reddit.com/r/Miata/">Miata</a></li>
                         </ul>
                 </section>
                 <section>
-                    <h3>section header</h3>
+                    <h3>Home</h3>
                         <ul>
-                            <li><a href="https://example.com">website text</a></li>
-                            <li><a href="https://example.com">website text</a></li>
-                            <li><a href="https://example.com">website text</a></li>
+                            <li><a href="https://tardigrade.pl:8123/">Hassos</a></li>
+                            <li><a href="https://tardigrade.pl:7130/">Fluidd</a></li>
+                            <li><a href="http://router.asus.com/">Asus</a></li>
                         </ul>
                 </section>
             </div>
         </div>
     </main>
     <footer>
-        <a href="https://github.com/eaaasun/startpage">Github</a>
+        <a href="https://github.com/HVisMyLife">Github</a>
     </footer>
     <script type="module">
         // ----- CHANGE THESE VARIABLES
@@ -82,10 +82,10 @@
         const animated = true;
 
         // Read the documentation for setting the weather API key
-        const apiKey = "[API KEY]";
-        const lat = 40.7127861;
-        const lon = -74.0134275;
-        const units = "imperial";
+        const apiKey = "9c78c08fb0b9c797bea6db7099a68517";
+        const lat = 50.076114;
+        const lon = 18.437104;
+        const units = "metric";
 
         // ----- DON'T TOUCH ANYTHING BELOW THIS UNLESS YOU KNOW WHAT YOU'RE DOING
 
@@ -150,7 +150,7 @@
             function playAnimation() {
                 var tl = anime.timeline({
                     easing: "easeInOutExpo",
-                    duration: 2000,
+                    duration: 1500,
                 });
 
                 tl.add({
@@ -163,7 +163,7 @@
                             targets: "#img",
                             width: ["100%", "60%"],
                         },
-                        "-=1200"
+                        "-=900"
                     )
                     .add(
                         {
@@ -172,7 +172,7 @@
                             translateY: [10, 0],
                             delay: anime.stagger(15),
                         },
-                        "-=1800"
+                        "-=1350"
                     );
             }
 
